@@ -1,5 +1,5 @@
 # BDD
-# Features BDD
+# BDD Features
 
 An analysis is written in BDD format that describes the behavior for each possible scenario, using the following keys: 
 Scenario schema: Lets you create table in each table row that represents a scenario. 
