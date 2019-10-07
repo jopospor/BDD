@@ -1,20 +1,16 @@
 # BDD
 # Features BDD
 
-A análise está escrita no formato BDD que descreve o comportamento para cada cenário possível, utilizando as seguintes palavras chaves:
-Esquema do cenário: Permite criar tabela em que cada linha da tabela representa um cenário.
-Contexto: Pré condição para execução de todos os cenários.
-Dado: Pré-condição para a execução do cenário.
-Quando: Ação executada pelo usuário.
-Então: Resultado da ação executada.
-E: Complemento da instrução informada na linha anterior.
-Mas: Forma negativa do "então".
+An analysis is written in BDD format that describes the behavior for each possible scenario, using the following keys: 
+Scenario schema: Lets you create table in each table row that represents a scenario. 
+Context: Precondition for running all scenarios. Data: Precondition for scenario execution.
+When: Action performed by the user. Then: Result of the action taken.
+E: Complement of the information instruction in the previous line. 
+But: Negative form of "then".
 
+# How to generate from Features:
 
-# Como gerar documentação a partir de Features:
-
-Na pasta raiz do projeto execute:
-
+In the project root folder run:
 
 ```
 yard config load_plugins true & bundle exec rake yard
